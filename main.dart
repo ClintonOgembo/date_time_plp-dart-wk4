@@ -4,11 +4,11 @@ void main() {
   
   // Current date and time
   DateTime now = DateTime.now();
-  print('Current date and time: $now');
+  print('This is the Current date and time: $now');
   
   // Creating a specific date and time
-  DateTime specificDate = DateTime(2024, 9, 10, 14, 30);
-  print('Specific date and time: $specificDate');
+  DateTime specificDate = DateTime(2003, 6, 11, 14, 30);
+  print('This is my own Specific date and time that i have entered: $specificDate');
 
   // Formatting date and time
   String formattedDate = DateFormat('yyyy-MM-dd – kk:mm').format(now);
