@@ -1,4 +1,7 @@
+import 'package:intl/intl.dart';
+
 void main() {
+  
   // Current date and time
   DateTime now = DateTime.now();
   print('Current date and time: $now');
@@ -31,4 +34,5 @@ void main() {
   DateTime futureDate = DateTime(2024, 12, 31);
   Duration difference = futureDate.difference(now);
   print('Days until future date: ${difference.inDays}');
+
 }
